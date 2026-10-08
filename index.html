@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Levittown Lanes — Website Concept</title>
+<title>Levittown Lanes (website concept)</title>
 <meta name="description" content="Independent website concept for Levittown Lanes, 56 Tanners Lane, Levittown, NY. Not affiliated with or approved by Levittown Lanes.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -320,6 +320,9 @@ body{padding-bottom:calc(62px + env(safe-area-inset-bottom))}
 @media(max-width:400px){.logo-text b{font-size:1.3rem}.logo-text span{font-size:.66rem;letter-spacing:.14em}}
 @media(max-width:340px){.logo-text b{font-size:1.1rem}.logo-text span{font-size:.6rem;letter-spacing:.08em}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+
+/* design rule: no decorative italic accents in headings */
+:is(h1,h2,h3) :is(em,i){font-style:normal!important;font-family:inherit!important}
 </style>
 </head>
 <body>
@@ -364,7 +367,7 @@ body{padding-bottom:calc(62px + env(safe-area-inset-bottom))}
 <!-- 2. HEADER -->
 <header class="header">
   <div class="wrap">
-    <a class="logo" href="#top" aria-label="Levittown Lanes — back to top">
+    <a class="logo" href="#top" aria-label="Levittown Lanes, back to top">
       <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 40 110"><use href="#pin"/></svg></span>
       <span class="logo-text"><b>Levittown Lanes</b><span>Tanners Lane · Since 1953</span></span>
     </a>
@@ -401,9 +404,8 @@ body{padding-bottom:calc(62px + env(safe-area-inset-bottom))}
 <section class="hero on-dark" aria-labelledby="hero-h">
   <div class="wrap">
     <div>
-      <span class="hero-script">Tonight at Levittown Lanes</span>
       <h1 class="display" id="hero-h">Levittown&rsquo;s night out <em>since 1953.</em></h1>
-      <p class="sub">Thirty-six lanes, a snack bar, a sports bar and room for the whole crew &mdash; right on Tanners Lane. Grab a lane for tonight, or start planning the party.</p>
+      <p class="sub">Thirty-six lanes, a snack bar, a sports bar and room for the whole crew, right on Tanners Lane. Grab a lane for tonight, or start planning the party.</p>
       <div class="hero-actions">
         <a class="btn btn-pop" href="https://www.mybowlingpassport.com/2394/4825/book" target="_blank" rel="noopener" data-reserve>Reserve a Lane <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
         <a class="btn btn-ghost" href="#party-form">Plan a Party</a>
@@ -499,7 +501,7 @@ body{padding-bottom:calc(62px + env(safe-area-inset-bottom))}
           <article class="card">
             <span class="icon-badge pop" aria-hidden="true"><svg><use href="#i-glass"/></svg></span>
             <h3 class="display">Adult parties</h3>
-            <p>From a 21st birthday to a retirement send-off &mdash; all the fun of a kids&rsquo; party, catered for adults, with food and drinks from the sports bar.</p>
+            <p>From a 21st birthday to a retirement send-off: all the fun of a kids&rsquo; party, catered for adults, with food and drinks from the sports bar.</p>
           </article>
           <article class="card">
             <span class="icon-badge" aria-hidden="true"><svg><use href="#i-heart"/></svg></span>
@@ -519,7 +521,7 @@ body{padding-bottom:calc(62px + env(safe-area-inset-bottom))}
           <ol>
             <li><span>The lanes set one rate that covers bowling, shoe rental, food and a beverage.</span></li>
             <li><span>You set the ticket price for your goal, with five or six bowlers to a lane.</span></li>
-            <li><span>Spread the word and pre-register your bowlers &mdash; the lanes can help get it out on social media and email.</span></li>
+            <li><span>Spread the word and pre-register your bowlers. The lanes can help get it out on social media and email.</span></li>
             <li><span>Subtract the lane rate and your costs. Your organization keeps the rest.</span></li>
             <li><span>Add 50/50 raffles, auctions or lane sponsorships to raise even more.</span></li>
           </ol>
@@ -535,7 +537,7 @@ body{padding-bottom:calc(62px + env(safe-area-inset-bottom))}
       <div class="form-card" id="party-form">
         <span class="demo-flag"><svg width="12" height="12" aria-hidden="true"><use href="#i-star"/></svg>Demo form &middot; nothing is sent</span>
         <h3 class="display">Start your party plan</h3>
-        <p class="hint">One short form for every kind of event. This sample shows how inquiries could work &mdash; it does not send anything.</p>
+        <p class="hint">One short form for every kind of event. This sample shows how inquiries could work. It does not send anything.</p>
         <form id="inquiry" autocomplete="on">
           <div class="field">
             <label for="f-name">Name</label>
@@ -591,7 +593,7 @@ body{padding-bottom:calc(62px + env(safe-area-inset-bottom))}
       <div>
         <p class="eyebrow"><svg aria-hidden="true"><use href="#i-star"/></svg>Leagues</p>
         <h2 class="display" id="leagues-h">Same lanes. Same night. Your people.</h2>
-        <p class="lede">League bowling is a standing date with friends and a little friendly competition. Bring your own team or come solo and we&rsquo;ll help you find one &mdash; there are leagues across the week for all ages.</p>
+        <p class="lede">League bowling is a standing date with friends and a little friendly competition. Bring your own team or come solo and we&rsquo;ll help you find one. There are leagues across the week for all ages.</p>
         <ul class="chips" aria-label="Types of leagues">
           <li class="chip">Daytime</li>
           <li class="chip">Night</li>
@@ -610,7 +612,7 @@ body{padding-bottom:calc(62px + env(safe-area-inset-bottom))}
           <div class="sp"><i>6</i>/</div><div class="x"><i>7</i>X</div><div class="x"><i>8</i>X</div><div><i>9</i>7</div><div class="x"><i>10</i>X</div>
         </div>
         <ul>
-          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Junior leagues for the bowlers of tomorrow &mdash; it&rsquo;s never too late to join.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Junior leagues for the bowlers of tomorrow. It&rsquo;s never too late to join.</span></li>
           <li><svg aria-hidden="true"><use href="#i-check"/></svg><span><b>Stars &amp; Strikes</b>, our league for bowlers with special needs.</span></li>
           <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Ask the desk which leagues have openings right now.</span></li>
         </ul>
@@ -663,7 +665,7 @@ body{padding-bottom:calc(62px + env(safe-area-inset-bottom))}
         <span class="icon-badge pop" aria-hidden="true"><svg><use href="#i-burger"/></svg></span>
         <p class="tag">Snack bar</p>
         <h3 class="display">Cafe 56</h3>
-        <p>A full-service snack counter with a menu served in &ldquo;frames&rdquo; &mdash; starters, wraps, quesadillas, burgers, pizza, flatbreads, breakfast and sweets.</p>
+        <p>A full-service snack counter with a menu served in &ldquo;frames&rdquo;: starters, wraps, quesadillas, burgers, pizza, flatbreads, breakfast and sweets.</p>
       </article>
       <article class="card">
         <span class="icon-badge" aria-hidden="true"><svg><use href="#i-ball"/></svg></span>
@@ -711,7 +713,7 @@ body{padding-bottom:calc(62px + env(safe-area-inset-bottom))}
             <tr data-day="Sunday"><th scope="row">Sunday</th><td>9 AM &ndash; 8:30 PM</td></tr>
           </tbody>
         </table>
-        <p class="hours-note">Closing times can change with daily business, and open lanes depend on leagues, school matches and events &mdash; call ahead or reserve online to be sure.</p>
+        <p class="hours-note">Closing times can change with daily business, and open lanes depend on leagues, school matches and events, so call ahead or reserve online to be sure.</p>
       </div>
 
       <div class="visit-info">
@@ -738,7 +740,7 @@ body{padding-bottom:calc(62px + env(safe-area-inset-bottom))}
 <footer class="footer on-dark">
   <div class="wrap">
     <div class="footer-top">
-      <a class="logo" href="#top" aria-label="Levittown Lanes — back to top">
+      <a class="logo" href="#top" aria-label="Levittown Lanes, back to top">
         <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 40 110"><use href="#pin"/></svg></span>
         <span class="logo-text"><b>Levittown Lanes</b><span>Where the good times roll</span></span>
       </a>
